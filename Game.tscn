@@ -41,11 +41,18 @@ __meta__ = {
 [node name="Score" type="Label" parent="UI/HUD"]
 margin_right = 1024.0
 margin_bottom = 30.0
+text = "Score
+"
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Time" type="Label" parent="UI/HUD"]
 margin_right = 1024.0
 margin_bottom = 30.0
+text = "
+"
 align = 2
 __meta__ = {
 "_edit_use_anchors_": false
@@ -54,7 +61,12 @@ __meta__ = {
 [node name="Lives" type="Label" parent="UI/HUD"]
 margin_right = 1024.0
 margin_bottom = 570.0
+text = "
+"
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Timer" type="Timer" parent="UI/HUD"]
 

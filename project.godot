@@ -10,13 +10,17 @@ config_version=4
 
 [application]
 
-config/name="Menu and HUD"
+config/name="02-Space-Shooter"
 run/main_scene="res://UI/Main_Menu.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 Global="*res://Global.gd"
+
+[global]
+
+rename=false
 
 [input]
 
